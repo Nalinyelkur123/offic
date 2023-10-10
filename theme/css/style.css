@@ -181,7 +181,7 @@ h6, .h6 {
   border: 0;
   padding-left: 0;
   background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 .btn-transparent:active, .btn-transparent:hover, .btn-transparent.focus, .btn-transparent.active {
@@ -189,7 +189,7 @@ h6, .h6 {
   border: 0;
   padding-left: 0;
   background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
   box-shadow: none;
   text-decoration: underline;
@@ -392,7 +392,7 @@ a:hover {
 
 .text-gradient-primary {
   background: linear-gradient(37deg, rgb(180, 62, 121) 1%, rgb(247, 70, 58) 100%);
-  -webkit-background-clip: text;
+  /* -webkit-background-clip: text; */
   -webkit-text-fill-color: transparent;
 }
 
