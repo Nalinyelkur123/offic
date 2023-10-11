@@ -31,19 +31,25 @@
 
   <!-- Main Stylesheet -->
   <link href="css/style.css" rel="stylesheet">
+  <link href="css/contact.css" rel="stylesheet">
   
   <!--Favicon-->
-  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="images/Favicon sevenovation.png" type="image/x-icon">
   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
 </head>
 
 <body>
   
 
+
+ 
   <header class="navigation fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
-      <a class="navbar-brand" href="index.html"><img src="images/Frame 25.png" alt="Egen" style="width: 75px; height: 60px;"></a>
+     
+      <a class="navbar-brand" href="index.html"><img src="images/Frame 1000005420.png" alt="Egen" style="width: 75px; height: 60px;"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
         aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -51,40 +57,43 @@
   
       <div class="collapse navbar-collapse text-center" id="navigation">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home</a>
+          <li class="nav-item ">
+            <a class="nav-link" href="index.html" style="color:#f9746b;">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="about.html">About</a>
+            <a class="nav-link" href="about.html" style="color:#f9746b;">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="services.html">Services</a>
+            <a class="nav-link" href="services.html" style="color:#f9746b;">Services</a>
            </li>
           <li class="nav-item">
-            <a class="nav-link" href="blog.html">Product</a>
+            <a class="nav-link" href="blog.html" style="color:#f9746b;">Product</a>
           </li>
           <li class="nav-item">
-            <!-- <a class="nav-link" href="portfolio.html">Portfolio</a> -->
+            <!-- <a class="nav-link" href="blog-single.html" style="color:#f9746b;">Product Details</a> -->
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
             <div class="dropdown-menu">
               <a class="dropdown-item" href="team.html">Team</a>
-              <!-- <a class="dropdown-item" href="team-single.html">Team Details</a> -->
-              <!-- <a class="dropdown-item" href="career.html">Career</a> -->
-              <!-- <a class="dropdown-item" href="career-single.html">Career Details</a> -->
-              <a class="dropdown-item" href="blog-single.html">Product Details</a>
-              <!-- <a class="dropdown-item" href="pricing.html">Pricing</a></a> -->
-              <!-- <a class="dropdown-item" href="faqs.html">FAQ's</a> -->
+               <a class="dropdown-item" href="team-single.html">Team Details</a>
+              <a class="dropdown-item" href="career.html">Career</a> 
+               <a class="dropdown-item" href="career-single.html">Career Details</a> 
+               <a class="dropdown-item" href="blog-single.html">Product Details</a> 
+              <a class="dropdown-item" href="pricing.html">Pricing</a></a> 
+              <a class="dropdown-item" href="faqs.html">FAQ's</a> 
             </div>
-          </li> 
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
+          </li>  -->
+          <li class="nav-item active">
+            <a class="nav-link" href="contact.html" style="color:#f9746b;">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
   </header>
+  
+
+
 <!-- page-title -->
 <section class="page-title bg-cover" data-background="images/blog/contact.jpg" >
   <div class="container">
@@ -103,11 +112,65 @@
 
 <!-- <> -->
 
-<div>
-  <h1>
-   
-  </h1>
-</div>
+<section class="contact-page-section">
+  <div class="container">
+      <div class="sec-title">
+          <div class="title">Contact Us</div>
+            <h2>Let's Get in Touch.</h2>
+        </div>
+        <div class="inner-container">
+          <div class="row clearfix">
+            
+              <!--Form Column-->
+                <div class="form-column col-md-8 col-sm-12 col-xs-12">
+                  <div class="inner-column">
+                      
+                        <!--Contact Form-->
+                        <div class="contact-form">
+                            <form method="post" action="sendemail.php" id="contact-form">
+                                <div class="row clearfix">
+                                    <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                        <input type="text" name="name" value="" placeholder="Name" required>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                        <input type="email" name="email" value="" placeholder="Email" required>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                        <input type="text" name="subject" value="" placeholder="Subject" required>
+                                    </div>
+                                    <div class="form-group col-md-6 col-sm-6 co-xs-12">
+                                        <input type="text" name="phone" value="" placeholder="Phone" required>
+                                    </div>
+                                    <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                                        <textarea name="message" placeholder="Massage"></textarea>
+                                    </div>
+                                    <div class="form-group col-md-12 col-sm-12 co-xs-12">
+                                        <button type="submit" class="theme-btn btn-style-one">Send Now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!--End Contact Form-->
+                        
+                    </div>
+                </div>
+                
+                <!--Info Column-->
+                <div class="info-column col-md-4 col-sm-12 col-xs-12">
+                  <div class="inner-column">
+                      <h2>Contact Info</h2>
+                        <ul class="list-info">
+                          <li><i class="fas fa-globe"></i>3-4-112/6/1, 1st Floor, Hyderguda Attapur, HYDERABAD, Hyderabad, Telangana, India, 500048</li>
+                            <li><i class="far fa-envelope"></i>info@sevenovations.com</li>
+                            <li><i class="fas fa-phone"></i>+91 9849077294</li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
 
 
 
@@ -133,13 +196,10 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-3 col-6">
-          <h4 class="text-white mb-5">Address :</h4>
+          <h4 class="text-white mb-5">About</h4>
           <ul class="list-unstyled">
-            <li><a  class="text-light d-block mb-3">3-4-112/6/1</a></li>
-            <li><a  class="text-light d-block mb-3">Hyderguda Attapur,Hyderabad</a></li>
-            <li><a class="text-light d-block mb-3"> Telangana</a></li>
-            <li><a  class="text-light d-block mb-3">India</a></li>
-            <li><a href="#" class="text-light d-block mb-3">500048</a></li>
+            <p class="text-light">Sevenovation is an IT Company and offers several services, including UI & UX, Digital Marketing, User Experience Analysis, IOS & Android, Web Development</p>
+            
           </ul>
         </div>
         <div class="col-md-3 col-6">
